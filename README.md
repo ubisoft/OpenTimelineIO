@@ -4,7 +4,7 @@ OpenTimelineIO
 ==============
 
 [![Supported VFX Platform Versions](https://img.shields.io/badge/vfx%20platform-2018--2021-lightgrey.svg)](http://www.vfxplatform.com/)
-![Supported Versions](https://img.shields.io/badge/python-2.7%2C%203.7%2C%203.8%2C%203.9-blue)
+![Supported Versions](https://img.shields.io/badge/python-2.7%2C%203.7%2C%203.8%2C%203.9%2C%203.10-blue)
 [![Build Status](https://github.com/PixarAnimationStudios/OpenTimelineIO/actions/workflows/python-package.yml/badge.svg)](https://github.com/PixarAnimationStudios/OpenTimelineIO/actions/workflows/python-package.yml)
 [![codecov](https://codecov.io/gh/PixarAnimationStudios/OpenTimelineIO/branch/main/graph/badge.svg)](https://codecov.io/gh/PixarAnimationStudios/OpenTimelineIO)
 [![docs](https://readthedocs.org/projects/opentimelineio/badge/?version=latest)](https://opentimelineio.readthedocs.io/en/latest/index.html)
@@ -120,7 +120,7 @@ You can also install the PySide2 dependency with `python -m pip install .[view]`
 
 You may need to escape the `[` depending on your shell, `\[view\]` .
 
-Currently the code base is written against python 2.7, 3.7, 3.8 and 3.9,
+Currently the code base is written against python 2.7, 3.7, 3.8, 3.9 and 3.10,
 in keeping with the pep8 style.  We ask that before developers submit pull
 request, they:
 

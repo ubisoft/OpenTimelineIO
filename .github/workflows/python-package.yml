@@ -83,7 +83,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        python-version: ['2.7', '3.7', '3.8', '3.9']
+        python-version: ['2.7', '3.7', '3.8', '3.9', '3.10']
 
     env:
       OTIO_CXX_COVERAGE_BUILD: ON
@@ -133,7 +133,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        python-build: [cp27*, cp37*, cp38*, cp39*]
+        python-build: [cp27*, cp37*, cp38*, cp39*, cp310*]
     steps:
       - uses: actions/checkout@v3
 
